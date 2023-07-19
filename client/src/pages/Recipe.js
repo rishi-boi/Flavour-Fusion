@@ -5,7 +5,6 @@ import Similar from "../components/Similar";
 import { getRecipe, clear } from "../actions/actionCreators";
 import { useDispatch, useSelector } from "react-redux";
 import Loader from "../components/Loader";
-import imgLoading from "../constants/imgLoading.gif";
 
 const Recipe = () => {
   const [searchParams] = useSearchParams();
