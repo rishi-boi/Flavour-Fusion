@@ -7,13 +7,13 @@ const Steps = ({steps}) => {
   return (
     <section className="text-gray-600 body-font">
         
-      <div className="container px-5 py-24 mx-auto flex flex-col justify-center items-center flex-wrap">
-      <h1 className="title-font sm:text-4xl text-3xl font-medium text-gray-900 mb-12">
+      <div className="container px-5 py-24 mx-auto flex flex-col flex-wrap">
+      <h1 className="title-font text-3xl mb-8 font-medium text-center text-gray-900">
             Steps
           </h1>
         {steps ?
           steps.map((step, index) => (
-            <div key={index} className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+            <div key={index} className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 ">
               <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
                 <div className="h-full w-1 bg-input pointer-events-none"></div>
               </div>

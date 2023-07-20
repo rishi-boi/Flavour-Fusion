@@ -33,7 +33,7 @@ const Home = () => {
     <>
     <Alert message={alert.msg} show={alert.show}></Alert>
      <div className='w-full h-screen justify-center items-center flex flex-col'>
-        <div className='flex justify-center items-center flex-col text-5xl text-primary font-bold mb-8'>
+        <div className='flex justify-center text-center items-center flex-col text-3xl p-2 lg:text-5xl text-primary font-bold mb-8'>
             <p>Discover the Perfect Fusion of Flavors</p>
             <p>Unleash Your Culinary Creativity!</p>
         </div>

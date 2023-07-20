@@ -36,10 +36,10 @@ const Recipe = () => {
       ) : data.status === "failure" ? (
         "Api key exhausted"
       ) : (
-        <div className="py-5 px-32">
-          <section className="text-gray-600 body-font">
-            <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-              <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <div className="py-5 px-2 xl:px-12">
+          <section className="text-gray-600 body-font text-sm md:text-lg xl:text-xl">
+            <div className="container mx-auto flex px-2 py-12 lg:flex-row flex-col items-center">
+              <div className="lg:flex-grow lg:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                 <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
                   {data.title}
                 </h1>
@@ -55,7 +55,7 @@ const Recipe = () => {
                     href={data.sourceUrl}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex text-white bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                    className="inline-flex text-white bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-secondary rounded text-lg"
                   >
                     Official Soure
                   </a>
@@ -71,7 +71,7 @@ const Recipe = () => {
             </div>
           </section>
           <section className="text-gray-600 body-font flex flex-col justify-center items-center w-full px-5">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+      <h1 className="title-font text-3xl mb-8 font-medium text-center text-gray-900">
               Instructions
             </h1>
             <p

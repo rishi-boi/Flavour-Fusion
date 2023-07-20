@@ -22,7 +22,7 @@ const Similar = ({ id }) => {
 
   return (
     <section className="text-gray-600 body-font">
-      <h1 className="title-font sm:text-4xl text-3xl mb-8 font-medium text-gray-900">
+      <h1 className="title-font text-3xl mb-8 font-medium text-center text-gray-900">
         Similar Recipes
       </h1>
       <div href="/" className="flex flex-wrap -m-4">
